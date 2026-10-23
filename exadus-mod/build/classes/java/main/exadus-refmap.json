@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "com/exadus/mixin/ItemRendererMixin": {
+      "getModel(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/LivingEntity;I)Lnet/minecraft/client/render/model/BakedModel;": "Lnet/minecraft/class_918;method_4019(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)Lnet/minecraft/class_1087;"
+    },
+    "com/exadus/mixin/ItemStackMixin": {
+      "getName": "Lnet/minecraft/class_1799;method_7964()Lnet/minecraft/class_2561;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/exadus/mixin/ItemRendererMixin": {
+        "getModel(Lnet/minecraft/item/ItemStack;Lnet/minecraft/world/World;Lnet/minecraft/entity/LivingEntity;I)Lnet/minecraft/client/render/model/BakedModel;": "Lnet/minecraft/class_918;method_4019(Lnet/minecraft/class_1799;Lnet/minecraft/class_1937;Lnet/minecraft/class_1309;I)Lnet/minecraft/class_1087;"
+      },
+      "com/exadus/mixin/ItemStackMixin": {
+        "getName": "Lnet/minecraft/class_1799;method_7964()Lnet/minecraft/class_2561;"
+      }
+    }
+  }
+}
