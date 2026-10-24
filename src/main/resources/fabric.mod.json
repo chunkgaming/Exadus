@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "exadus",
+  "version": "${version}",
+  "name": "Exadus",
+  "description": "Conditional Mace visual and tooltip interceptor for Exadus.",
+  "authors": [
+    "ExadusDev"
+  ],
+  "license": "MIT",
+  "icon": "assets/exadus/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.exadus.ExadusMod"
+    ],
+    "client": [
+      "com.exadus.ExadusClientMod"
+    ]
+  },
+  "mixins": [
+    "exadus.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*",
+    "fabric-api": "*"
+  }
+}
